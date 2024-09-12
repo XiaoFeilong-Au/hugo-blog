@@ -1,7 +1,7 @@
 ---
 title: "Hugo Quick Start"
 date: 2023-12-01T16:53:48+08:00
-draft: false
+draft: true
 ---
 
 Hugo 快速搭建一个博客系统

@@ -1,5 +1,5 @@
 
-baseURL = "https://101.126.67.179:1313/hugo/"
+baseURL = "https://101.126.67.179:1313/"
 languageCode = 'zh-cn'
 title = '小飞龙的Blog'
 
@@ -9,6 +9,6 @@ paginate = 8
 
 [params]
   author = "小飞龙"
-  description = "小飞龙 退役ACMer 目前在南京当go后端开发社畜"
-  avatar = "https://free2.yunpng.top/2024/09/05/66d94ec0e149e.jpg"
-  favicon = "https://free2.yunpng.top/2024/09/05/66d94ec0e149e.jpg"
+  description = "小飞龙\n退役ACMer\n目前在南京\ngo后端开发社畜"
+  avatar = "https://s21.ax1x.com/2024/09/12/pAnG0O0.jpg"
+  favicon = "https://s21.ax1x.com/2024/09/12/pAnG0O0.jpg"
