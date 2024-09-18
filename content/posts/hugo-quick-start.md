@@ -121,6 +121,7 @@ This is my blog website `https://pudongping.github.io`
 这里我使用的是 `Github Pages` 作为演示。你也可以通过访问 `https://pudongping.github.io/hugo-blog` 来访问我的教程示例。
 
 直接在项目根目录下执行：
+https://pan.baidu.com/s/1OnLEPzzj0iaTE7cEtVHvug?pwd=9569 
 
 ```sh
 # 不需要添加任何参数

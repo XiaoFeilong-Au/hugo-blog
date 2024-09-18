@@ -37,3 +37,22 @@ docker run -d \
     # -p 9200:9200：端口映射配置
 ```
 ### kibana
+```shell 
+docker run -d \ 
+--name kibana \ 
+-e ELASTICSEARCH_HOSTS=http://es:9200 \ 
+--network=es-net \ 
+-p 5601:5601  \ 
+kibana:7.12.1
+# --network es-net ：加入一个名为es-net的网络中，与elasticsearch在同一个网络中
+# -e ELASTICSEARCH_HOSTS=http://es:9200"：设置elasticsearch的地址，因为kibana已经与elasticsearch在一个网络，因此可以用容器名直接访问elasticsearch
+# -p 5601:5601：端口映射配置,
+
+
+# 安装ik分词器
+docker exec -it es bash
+cd /usr/share/elasticsearch/bin
+./elasticsearch-plugin  install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v7.12.1/elasticsearch-analysis-ik-7.12.1.zip
+exit
+docker restart es
+```
